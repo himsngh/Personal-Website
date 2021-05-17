@@ -1,16 +1,17 @@
 body {
-  background-color: #edffec;
+    background-color: black;
   margin: 0;
 }
 
 /* Navigation Bar */
 #navigation-section {
     background-color: black;
+    margin: 0%;
 }
 
 .nav-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 
 .nav-items {
-    width: 50rem;
+    flex: 1 1 auto;
 }
 
 .nav-items ul {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-item {
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav-link {
@@ -48,4 +49,49 @@ body {
 
 .nav-link:hover {
     color: slateblue;
+}
+
+/* Section - 1 */
+
+#section-1 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    color: white;
+}
+
+.col-1 {
+    justify-self: center;
+    align-self: center;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-2 {
+    justify-self: center;
+    align-self: center;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Construction */
+
+#construction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+    background-color: rebeccapurple;
+}
+
+#construction .heading{
+    height: 50rem;
+    align-self: center;
+    margin: 0%;
+    display: flex;
+    align-items: center;
 }
