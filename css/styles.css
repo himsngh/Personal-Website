@@ -1,6 +1,6 @@
 body {
     background-color: black;
-  margin: 0;
+    margin: 0;
 }
 
 /* Navigation Bar */
@@ -51,31 +51,75 @@ body {
     color: slateblue;
 }
 
+/* Section - Heading */
+#heading {
+    display: grid;
+    color: #867ae9;
+    font-family: 'Tangerine', 'Monsieur La Doulaise', cursive;
+    font-size: 5.5rem;
+    margin: 1.5em 0;
+}
+
+.main-section-1 {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-section-2 {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-section-3 {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-1 h1 {
+    margin: 0 auto 0.5em;
+}
+
+.main-section-2 h1 {
+    margin: 0 auto 0.5em;
+}
+
+.main-section-3 h1 {
+    margin: 0;
+}
+
 /* Section - 1 */
 
 #section-1 {
-    background-color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    color: white;
 }
 
-.col-1 {
-    justify-self: center;
-    align-self: center;
-    height: 45rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.article-1 {
+    grid-column: 1/2;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    background-color: darkred;
 }
-.col-2 {
-    justify-self: center;
-    align-self: center;
-    height: 45rem;
+.article-2 {
+    grid-column: 2/3;
+    background-color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+.article-1-div h2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 5rem;
+    margin: 2rem 12rem;
+}
+.article-2-div p {
+    font-size: 2.5rem;
+    margin: 5rem;
 }
 
 /* Construction */
