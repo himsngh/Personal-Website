@@ -1,10 +1,11 @@
 import Button from "./Button";
+import Divider from "./Divider";
 
 function Header() {
   return (
-    <div className="bg-blue-gloss p-20 pb-96">
+    <div className="p-20 pb-12">
       <div>
-        <div className="flex flex-col items-center text-center space-y-4 p-20 pb-56 font-heading tracking-widest">
+        <div className="flex flex-col items-center text-center space-y-4 p-16 pb-20 font-heading tracking-widest">
           <h2 className="basis-30 content-center text-3xl text-neutral-400 p-1">
             HI, MY NAME IS
           </h2>
@@ -22,7 +23,7 @@ function Header() {
               </p>
             </div>
           </div>
-          <div className="py-5">
+          <div className="pt-5">
             <Button buttonName="Do you want to collaborate ?"  link="" id="collaborate"/>
           </div>
         </div>
