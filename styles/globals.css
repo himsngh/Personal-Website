@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rubik+Vinyl&family=Vollkorn&family=Xanh+Mono&display=swap');/* 
+    To import a font:
+        add the @import url('font-url-here') and then use the extended tailwind.config.js properties to define new fonts.
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
