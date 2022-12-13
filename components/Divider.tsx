@@ -9,7 +9,7 @@ function Divider() {
                 <p className="basis-1/5 py-0 px-5">.</p>
             </div>
         </div>
-    )
+    );
 }
 
 export default Divider;

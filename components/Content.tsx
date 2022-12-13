@@ -42,17 +42,16 @@ function Content() {
 
           <br></br>
 
-          <p>
-            My preferred weapon of choice:
-            <div>
-              <ol className="list-disc list-inside flex flex-wrap flex-row">
-                <li className="basis-1/2">Golang</li>
-                <li className="basis-1/2">PostgreSQL</li>
-                <li className="basis-1/2">Docker</li>
-                <li className="basis-1/2">Google Cloud Platform</li>
-              </ol>
-            </div>
-          </p>
+          <div>
+            <p>My preferred weapon of choice:</p>
+
+            <ol className="list-disc list-inside flex flex-wrap flex-row">
+              <li className="basis-1/2">Golang</li>
+              <li className="basis-1/2">PostgreSQL</li>
+              <li className="basis-1/2">Docker</li>
+              <li className="basis-1/2">Google Cloud Platform</li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
