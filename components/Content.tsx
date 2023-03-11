@@ -3,7 +3,7 @@ import profileImage from "../public/profile-pic.jpeg";
 
 function Content() {
   return (
-    <div className="px-40 pb-20 mt-5">
+    <div className="px-40 p-40 mt-5">
       <div className="flex">
         <div className="mr-20">
           <Image
@@ -36,12 +36,13 @@ function Content() {
 
           <p>
             👨 When I am not coding, I'm a proud companion of WeekXnd🐶.
-            Travelling somewhere maybe the gym, doing some serious netflix
+            Travelling somewhere probably the gym, doing some serious netflix
             marathon, listening to music or reading a book.
           </p>
 
           <br></br>
 
+            {/* https://nextjs.org/docs/messages/react-hydration-error - due to using div inside paragraph tag */}
           <div>
             <p>My preferred weapon of choice:</p>
 
